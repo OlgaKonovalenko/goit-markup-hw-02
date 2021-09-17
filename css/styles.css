@@ -101,7 +101,6 @@ body {
     color: var(--primary-title-color);
 }
 .item-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
@@ -171,6 +170,9 @@ body {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+.filter-btn {
+    cursor: pointer;
+}
 
 /* Портфолио */
 
@@ -182,7 +184,6 @@ letter-spacing: 0.06em;
 color: var(--primary-title-color)
 }
 .examles-type {
-font-weight: 400;
 font-size: 16px;
 line-height: 1,87;
 letter-spacing: 0.03em;
