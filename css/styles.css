@@ -31,7 +31,7 @@ body {
         
 .logo {
     color: var(--accent-color);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: 1,19;
@@ -85,6 +85,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    font-family: inherit;
 }
 .btn:hover,  
 .btn:active {
@@ -161,7 +162,7 @@ body {
     font-size: 16px;
     line-height: 1,62;
     letter-spacing: 0.03em;
-    font-family: Roboto, sans-serif;
+    font-family: inherit;
     color: var(--primary-title-color);
     background-color: #F5F4FA;
 }
