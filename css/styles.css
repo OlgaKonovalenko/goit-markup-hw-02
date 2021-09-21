@@ -31,9 +31,6 @@ body {
 .list {
     list-style: none;
 }
-.header-link .filter-btn:current {
-    color: var(--accent-color)
-}
     /*....... HEADER....... */
     
 .logo {
@@ -44,16 +41,12 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;   
 }
-.logo:hover, 
-.logo:focus {
+.logo .header-span:hover, 
+.logo .header-span:focus {
     color: var(--accent-color);
 }
 .header-span {
     color: var(--primary-title-color);
-}
-.header-span:focus,
-.header-span:hover {
-    color: var(--accent-color);
 }
 .header-link {
     color: var(--primary-title-color);
@@ -66,6 +59,10 @@ body {
 .header-link:focus {
     color: var(--accent-color);
 }
+.header-link.current {
+    color: var(--accent-color);
+}
+
 .header-contact-link {
     font-weight: 500;
     font-size: 14px;
@@ -73,10 +70,9 @@ body {
     letter-spacing: 0,02em; 
     color: var(--primary-text-color);
 }
-
 .header-contact-link:focus,
 .header-contact-link:hover {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
     /* .....HERO...... */
 
@@ -114,7 +110,7 @@ body {
 
 .item-title {
     font-weight: 700;
-    ont-size: 14px;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--primary-title-color);
@@ -193,7 +189,8 @@ font-style: inherit;
     background-color: #F5F4FA;
 }
 .filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:focus
+.active {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
